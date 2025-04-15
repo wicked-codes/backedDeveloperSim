@@ -40,7 +40,7 @@ const register = async(req, res) => {
                 message: 'User with the same email exists.'
             });
             return;
-        }else{
+        } else {
             const user = {
                 email,
                 first_name,
